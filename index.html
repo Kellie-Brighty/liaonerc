@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lia Community - Saved by AI, Loved by Ethereum</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="logo">LIA</div>
+        <div class="nav-links">
+            <a href="#story">The Story</a>
+            <a href="#ca-section">Chart</a>
+            <a href="#community">Community</a>
+        </div>
+        <a href="https://t.me/Liacoineth" target="_blank" class="btn btn-primary">Join Lia</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+      <div class="hero-content">
+        <div class="badge">Dog Narratives on Ethereum</div>
+        <h1 class="hero-title">
+          Meet <span class="highlight">Lia</span>. Escaped Euthanization, Saved
+          by Grok.
+        </h1>
+            <p class="hero-subtitle">Cared by her owners, loved by Elon Musk, and honored by the Ethereum community. Bringing the next wave of significant volume to ETH.</p>
+            <div class="hero-actions">
+                <a href="https://t.me/Liacoineth" target="_blank" class="btn btn-primary pulse">Join the Community</a>
+                <a href="#story" class="btn btn-secondary">Read Her Story</a>
+            </div>
+        <div class="stats">
+          <div class="stat-item">
+            <span class="stat-value">100%</span>
+            <span class="stat-label">Community Driven</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-value">1</span>
+            <span class="stat-label">AI Life Saved</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-image-wrapper">
+        <div class="image-border"></div>
+        <img src="lia.jpg" alt="Lia the Dog" class="hero-image" />
+        </div>
+    </header>
+
+    <!-- Contract Address & Chart Section -->
+    <section id="ca-section" class="ca-section">
+        <div class="ca-container">
+            <div class="ca-header">
+                <h2>Contract Address</h2>
+                <div class="ca-box">
+                    <span id="ca-text">0x5Ed1EC449a6998A8Bf6a477969Cb78cd9117C2e8</span>
+                    <button id="copy-btn" class="copy-btn" title="Copy to clipboard">
+                        <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 0 0 1 2-2h9a2 0 0 1 2 2v1"></path></svg>
+                    </button>
+                </div>
+                <div id="copy-toast" class="copy-toast">Copied!</div>
+            </div>
+            
+            <div class="chart-wrapper">
+                <iframe 
+                    src="https://dexscreener.com/ethereum/0x5Ed1EC449a6998A8Bf6a477969Cb78cd9117C2e8?embed=1&theme=dark" 
+                    frameborder="0" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Story / Social Proof Section -->
+    <section id="story" class="story-section">
+      <div class="story-container">
+        <div class="story-image-wrapper">
+          <img
+            src="lia2.jpg"
+            alt="News article about Lia being saved by AI"
+            class="story-image hover-tilt"
+          />
+        </div>
+        <div class="story-content">
+          <h2>The Dog Who Defied The Elements</h2>
+          <p>
+            Vets planned euthanasia, but thanks to Elon Musk's Grok, Lia gets to
+            see another day. This powerful story highlights the incredible
+            intersection of AI, compassion, and the blockchain community.
+          </p>
+
+          <div class="tweet-cards">
+            <a
+              href="https://x.com/elonmusk/status/2026054747393011986?s=20"
+              target="_blank"
+              class="tweet-card"
+            >
+              <svg viewBox="0 0 24 24" class="x-icon">
+                <path
+                  d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+                />
+              </svg>
+              <span>Elon Musk</span>
+            </a>
+            <a
+              href="https://x.com/grok/status/2026054356617838985?s=20"
+              target="_blank"
+              class="tweet-card"
+            >
+              <svg viewBox="0 0 24 24" class="x-icon">
+                <path
+                  d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+                />
+              </svg>
+              <span>Grok</span>
+            </a>
+            <a
+              href="https://discover.swns.com/2026/02/vets-planned-euthanasia-but-couple-say-ai-saved-their-dog/"
+              target="_blank"
+              class="tweet-card highlight-card"
+            >
+              <svg viewBox="0 0 24 24" class="news-icon" fill="currentColor">
+                <path
+                  d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"
+                />
+              </svg>
+              <span>News Article</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="join" class="cta-section">
+        <div class="cta-container">
+            <h2>Welcome to the Lia Community</h2>
+            <p>Join the movement bringing a significant volume to ETH through a heartwarming dog narrative.</p>
+            <a href="https://t.me/Liacoineth" target="_blank" class="btn btn-primary btn-large glow-effect" style="display: inline-block;">Join the Movement</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="logo">LIA</div>
+        <p>© 2026 Lia Community.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
